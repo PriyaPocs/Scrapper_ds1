@@ -5386,3 +5386,20 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.52:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:35:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:35:50] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:35:50] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:35:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'phone', 'Name': 'Ratan Singh', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Nice Phone.🥰🥰'}, {'Product': 'phone', 'Name': 'Pranabesh Pramanik', 'Rating': '3', 'CommentHead': 'Nice', 'Comment': 'Good product...'}, {'Product': 'phone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Superb mobile..'}, {'Product': 'phone', 'Name': 'Aditya Kant', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Average phone in price..👍'}, {'Product': 'phone', 'Name': 'ANURAG ARYA', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Budget friendly smartphone'}, {'Product': 'phone', 'Name': 'Toyab Sekh', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Very nice phone'}, {'Product': 'phone', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Decent camera. (In day light)Good processor. (Normal user)Display was very good Battery backup also very good.They should give the Refresh rate atleast 90htzGood design i love green colour 💚'}, {'Product': 'phone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Best mobile in this price ..'}, {'Product': 'phone', 'Name': 'Bijay Gharami', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'It is a very good product at this price segment.I am very happy to have it . Thank you Flipkart for this amazing deal.'}, {'Product': 'phone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'I gifted my wife she really liked this mobile'}, {'Product': 'phone', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'I gifted my wife she really liked this mobile'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:38:52] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:38:52] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 20:38:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
